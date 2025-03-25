@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'greenthumb.urls'
+ROOT_URLCONF = 'green_thumb.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'greenthumb.wsgi.application'
+WSGI_APPLICATION = 'green_thumb.wsgi.application'
 
 
 # Database
